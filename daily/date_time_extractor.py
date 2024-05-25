@@ -2,7 +2,7 @@ import requests
 
 
 def dayOfWeekExtractor(day_of_week: int):
-    day_mapping = dict(zip(range(1, 8), ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]))
+    day_mapping = dict(zip(range(1, 8), ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]))
     return day_mapping[day_of_week]
 
 
